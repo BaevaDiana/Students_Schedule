@@ -4,73 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#FFFFFF"
     android:rotationX="0"
     android:stretchColumns="*">
+
 
     <!-- Заголовок таблицы -->
     <TableRow>
 
         <TextView
             android:layout_width="55dp"
-            android:background="#2196F3"
+            android:background="#FFFFFF"
             android:padding="5dp"
             android:text="Время"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/monday_text_view"
+            android:id="@+id/monday_text_view_1"
             android:layout_width="55dp"
-            android:background="#2196F3"
+            android:background="#FFFFFF"
             android:padding="5dp"
             android:text="ПН"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tuesday_text_view"
+            android:id="@+id/tuesday_text_view_1"
             android:layout_width="55dp"
-            android:background="#2196F3"
+            android:background="#FFFFFF"
             android:padding="5dp"
             android:text="ВТ"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/wednesday_text_view"
+            android:id="@+id/wednesday_text_view_1"
             android:layout_width="55dp"
-            android:background="#2196F3"
+            android:background="#FFFFFF"
             android:padding="5dp"
             android:text="СP"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/thursday_text_view"
+            android:id="@+id/thursday_text_view_1"
             android:layout_width="55dp"
-            android:background="#2196F3"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
             android:padding="5dp"
             android:text="ЧТ"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/friday_text_view"
+            android:id="@+id/friday_text_view_1"
             android:layout_width="55dp"
-            android:background="#2196F3"
+            android:background="#FFFFFF"
             android:padding="5dp"
             android:text="ПТ"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/saturday_text_view"
+            android:id="@+id/saturday_text_view_1"
             android:layout_width="55dp"
-            android:background="#2196F3"
+            android:background="#FFFFFF"
             android:padding="5dp"
             android:text="СБ"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textStyle="bold" />
     </TableRow>
 
@@ -82,71 +84,69 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="08:00"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="PЗА\nЛР\n106\nШиян В.И."
-            android:textColor="#000000"
-            android:textSize="5pt"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
-
     </TableRow>
 
     <!--    2 строка-->
@@ -155,69 +155,69 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="09:20"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="МИС\nЛР\n101\n Бушуева О.А."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
     </TableRow>
 
@@ -228,70 +228,70 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="11:10"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="НАиМ\nЛР\n107/3\nРуденко О.В."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="РЗА\nЛР\n107\n Шиян В.И."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
     </TableRow>
 
@@ -301,71 +301,71 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="12:40"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="РЗА\nЛК\n131\nПриходько Т.А."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="НАиМ\nЛР\n107/3\nРуденко О.В."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="МИС\nЛК\n131\n Костенко К.И."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="НАиМ\nЛК\n129\nРуденко О.В."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
     </TableRow>
@@ -377,72 +377,73 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="14:10"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="МПО\nЛК\n133\nПолупанова Е.Е."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="АЦОМ\nЛЗ\n107/3\nКрамаренко А.А."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="ПМП\nЛК\n131\nПриходько Т.А."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:textSize="5pt"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
-            android:textSize="5pt"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="55dp"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
     </TableRow>
@@ -454,72 +455,72 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="15:30"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="ВПС\nЛК\n129\nЖуков С.А."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="ПМП\nЛЗ\n103/5\nПриходько Т.А."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text="ПМП\nЛК\n103/5\nПриходько Т.А"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
     </TableRow>
@@ -530,49 +531,49 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="17:00"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="ВПС\nЛЗ\n148\nЖуков С.А."
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
             android:textColor="#000000"
@@ -582,20 +583,20 @@
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
     </TableRow>
@@ -606,71 +607,71 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text="18:30"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:padding="5dp"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="55dp"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="#2196F3"
             android:gravity="center"
             android:text=""
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="5pt"
             android:textStyle="bold" />
     </TableRow>
