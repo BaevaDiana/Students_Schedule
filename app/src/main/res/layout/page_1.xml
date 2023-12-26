@@ -8,7 +8,6 @@
     android:rotationX="0"
     android:stretchColumns="*">
 
-
     <!-- Заголовок таблицы -->
     <TableRow>
 

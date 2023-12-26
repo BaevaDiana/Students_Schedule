@@ -46,11 +46,9 @@ public class NotesActivity extends AppCompatActivity {
                 EditText noteNumberEditText = findViewById(R.id.note_number_edit_text);
                 EditText subjectEditText = findViewById(R.id.subject_edit_text);
                 EditText noteEditText = findViewById(R.id.note_edit_text);
-
                 String noteNumber = noteNumberEditText.getText().toString();
                 String subject = subjectEditText.getText().toString();
                 String note = noteEditText.getText().toString();
-
                 if (noteNumber.isEmpty() || subject.isEmpty() || note.isEmpty()) {
                     Toast.makeText(NotesActivity.this, "Введите номер заметки, название предмета и заметку", Toast.LENGTH_SHORT).show();
                 } else {
@@ -58,27 +56,18 @@ public class NotesActivity extends AppCompatActivity {
                     long id = mDatabaseHelper.addTask(number, subject, note);
                     Task task = new Task(number, subject, note);
                     mAdapter.mTaskList.add(task);
-
                     // Обновление списка заметок
                     mAdapter.notifyDataSetChanged();
-
                     noteNumberEditText.setText("");
                     subjectEditText.setText("");
                     noteEditText.setText("");
-
                     // Отображение сообщения об успешном добавлении заметки
                     Toast.makeText(NotesActivity.this, "Заметка успешно добавлена", Toast.LENGTH_SHORT).show();
-
-                    // Переход на новую страницу
-//                    Intent intent = new Intent(NotesActivity.this, NotesListActivity.class);
-//                    startActivity(intent);
                 }
             }
         });
-
             // Получение ссылки на кнопку "Удалить заметку"
             Button buttonDeleteNote = findViewById(R.id.delete_note_button);
-
             // Установка слушателя нажатий на кнопку "Удалить заметку"
             buttonDeleteNote.setOnClickListener(new View.OnClickListener() {
                 @Override
