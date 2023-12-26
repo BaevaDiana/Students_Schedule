@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
     private String getAppLanguage() {
         // Используем язык, сохраненный в SharedPreferences
         SharedPreferences prefs = getSharedPreferences(PREFS_FILE_NAME, Context.MODE_PRIVATE);
-        return prefs.getString(SELECTED_LANGUAGE_KEY, "");
+        return prefs.getString(SELECTED_LANGUAGE_KEY, "ru");
     }
 
 

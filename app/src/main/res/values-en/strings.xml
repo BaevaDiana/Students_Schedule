@@ -7,4 +7,6 @@
     <string name="menu_russian">Russian</string>
     <string name="menu_english">English</string>
     <string name="menu_language">Choose menu\'s language</string>
+    <string name="choose_or">Or</string>
+    <string name="button_notes">Add studying note</string>
 </resources>

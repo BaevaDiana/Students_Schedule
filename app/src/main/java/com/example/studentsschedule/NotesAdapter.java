@@ -45,7 +45,7 @@ public class NotesAdapter extends BaseAdapter {
         Task task = mTaskList.get(position);
 
         TextView noteNumberTextView = convertView.findViewById(R.id.note_number_edit_text);
-        noteNumberTextView.setText("Номер заметки: " + task.getId());
+        noteNumberTextView.setText(String.valueOf(task.getId()));
 
         TextView subjectTextView = convertView.findViewById(R.id.subject_edit_text);
         subjectTextView.setText(task.getSubject());

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NoteDataBase extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "notes_555.db";
+    private static final String DATABASE_NAME = "notes_data_base.db";
     private static final int DATABASE_VERSION = 1;
 
     public static final String TABLE_NAME = "notes";
