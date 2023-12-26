@@ -11,91 +11,117 @@
         android:layout_height="?attr/actionBarSize"
         android:background="#2380CA" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:baselineAligned="false"
-        android:fontFamily="sans-serif"
-        android:gravity="center"
-        android:padding="100dp"
-        android:id="@+id/welcome_message"
-        android:text="@string/welcome_message"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+    <fragment
+        android:id="@+id/fragment_1"
+        android:name="com.example.studentsschedule.Fragment.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/choose_week"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="20dp"
-        android:baselineAligned="false"
-        android:fontFamily="sans-serif-thin"
-        android:gravity="center"
-        android:text="@string/choose_week"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:visibility="visible" />
-
-    <Button
-        android:id="@+id/button_numerator"
-        android:layout_width="300dp"
-        android:layout_height="75dp"
-        android:layout_marginLeft="65dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#FFFFFF"
-        android:gravity="center"
-        android:padding="20dp"
-        android:text="@string/button_numerator"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <Button
-        android:id="@+id/button_denominator"
-        android:layout_width="300dp"
-        android:layout_height="75dp"
-        android:layout_marginLeft="65dp"
-        android:backgroundTint="#FFFFFF"
-        android:gravity="center"
-        android:padding="20dp"
-        android:layout_marginBottom="20dp"
-        android:text="@string/button_denominator"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/choose_or"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="190dp"
-        android:layout_marginTop="-10dp"
-        android:baselineAligned="false"
-        android:fontFamily="sans-serif-thin"
-        android:gravity="center"
-        android:text="@string/choose_or"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:visibility="visible" />
-
-    <Button
-        android:id="@+id/button_notes"
-        android:layout_width="300dp"
-        android:layout_height="75dp"
-        android:layout_marginLeft="65dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#FFFFFF"
-        android:gravity="center"
-        android:padding="20dp"
-        android:text="@string/button_notes"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.example.studentsschedule.Fragment.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:background="#2380CA"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="#2380CA" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:baselineAligned="false"-->
+<!--        android:fontFamily="sans-serif"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="100dp"-->
+<!--        android:id="@+id/welcome_message"-->
+<!--        android:text="@string/welcome_message"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/choose_week"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="130dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:baselineAligned="false"-->
+<!--        android:fontFamily="sans-serif-thin"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/choose_week"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_numerator"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_marginLeft="65dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:backgroundTint="#FFFFFF"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="20dp"-->
+<!--        android:text="@string/button_numerator"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_denominator"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_marginLeft="65dp"-->
+<!--        android:backgroundTint="#FFFFFF"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="20dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:text="@string/button_denominator"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/choose_or"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="190dp"-->
+<!--        android:layout_marginTop="-10dp"-->
+<!--        android:baselineAligned="false"-->
+<!--        android:fontFamily="sans-serif-thin"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/choose_or"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_notes"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_marginLeft="65dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:backgroundTint="#FFFFFF"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="20dp"-->
+<!--        android:text="@string/button_notes"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="18sp" />-->
+<!--    -->
+<!--</LinearLayout>-->
