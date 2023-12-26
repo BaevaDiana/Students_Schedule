@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:background="#2380CA"
+        android:background="#FFFFFF"
         android:orientation="vertical"
         android:padding="16dp">
 
@@ -17,8 +17,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Номер заметки"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF" />
+            android:textColor="#2380CA"
+            android:textColorHint="#2380CA" />
+
 
         <EditText
             android:id="@+id/subject_edit_text"
@@ -26,16 +27,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:hint="Название предмета"
-            android:textColor="@android:color/white"
-            android:textColorHint="#FFFFFF" />
+            android:textColor="#2380CA"
+            android:textColorHint="#2380CA" />
 
         <EditText
             android:id="@+id/note_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Заметка"
-            android:textColor="@android:color/white"
-            android:textColorHint="#FFFFFF" />
+            android:textColor="#2380CA"
+            android:textColorHint="#2380CA" />
 
         <Button
             android:id="@+id/add_note_button"
@@ -46,6 +47,7 @@
             android:layout_alignParentEnd="true"
             android:text="Добавить заметку"
             android:textColor="#FFFFFF"
+            android:backgroundTint="#2380CA"
             android:textSize="16sp" />
 
         <Button
@@ -57,6 +59,7 @@
             android:layout_toStartOf="@id/add_note_button"
             android:text="Удалить заметку"
             android:textColor="#FFFFFF"
+            android:backgroundTint="#2380CA"
             android:textSize="16sp" />
 
         <Button
@@ -68,6 +71,7 @@
             android:layout_toStartOf="@id/add_note_button"
             android:text="Изменить заметку"
             android:textColor="#FFFFFF"
+            android:backgroundTint="#2380CA"
             android:textSize="16sp" />
 
     </LinearLayout>
