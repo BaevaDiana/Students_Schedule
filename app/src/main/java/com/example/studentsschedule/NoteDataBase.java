@@ -59,6 +59,18 @@ public class NoteDataBase extends SQLiteOpenHelper {
         db.close();
     }
 
+    // Метод editTask выполняет изменение данных в базе данных
+    public void editTask(int number, String subject, String note) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+        values.put(COLUMN_SUBJECT, subject);
+        values.put(COLUMN_NOTE, note);
+        db.update(TABLE_NAME, values, COLUMN_ID + " = ?", new String[] { String.valueOf(number) }); // Изменение данных в таблице
+        db.close();
+    }
+
+
     // Метод getTasks возвращает список всех заметок из базы данных
     public List<Task> getTasks() {
         List<Task> taskList = new ArrayList<>();

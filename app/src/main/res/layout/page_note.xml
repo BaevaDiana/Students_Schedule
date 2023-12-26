@@ -59,6 +59,17 @@
             android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
+        <Button
+            android:id="@+id/edit_note_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/add_note_layout"
+            android:layout_alignBottom="@id/add_note_layout"
+            android:layout_toStartOf="@id/add_note_button"
+            android:text="Изменить заметку"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
     </LinearLayout>
 
     <ListView
