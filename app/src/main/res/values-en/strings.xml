@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Student\'s Schedule</string>
     <string name="welcome_message">Welcome to Student Schedule!</string>
     <string name="choose_week">Choose the week you need</string>
     <string name="button_numerator">Schedule by numerator</string>
@@ -8,5 +7,5 @@
     <string name="menu_english">English</string>
     <string name="menu_language">Choose menu\'s language</string>
     <string name="choose_or">Or</string>
-    <string name="button_notes">Add studying note</string>
+    <string name="button_notes">Add study note</string>
 </resources>

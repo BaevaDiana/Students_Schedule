@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Student\'s Schedule</string>
     <string name="welcome_message">Добро пожаловать в Студенческое расписание!</string>
     <string name="choose_week">Необходимая неделя</string>
     <string name="button_numerator">Расписание по числителю</string>
