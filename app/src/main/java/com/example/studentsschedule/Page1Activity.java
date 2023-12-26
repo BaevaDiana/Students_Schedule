@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+
 public class Page1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,4 +82,5 @@ public class Page1Activity extends AppCompatActivity {
 
     }
 }
+
 

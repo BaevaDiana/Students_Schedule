@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Зона добавления заметки -->
+    <LinearLayout
+        android:id="@+id/add_note_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-2dp"
+        android:background="#2380CA"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/note_number_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Номер заметки"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/subject_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Название предмета"
+            android:textColor="@android:color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/note_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Заметка"
+            android:textColor="@android:color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/add_note_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Добавить заметку"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/notes_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/add_note_layout"
+        android:layout_marginTop="64dp"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</RelativeLayout>

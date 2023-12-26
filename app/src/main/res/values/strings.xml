@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Student\'s Schedule</string>
+    <string name="welcome_message">Добро пожаловать в Студенческое расписание!</string>
+    <string name="choose_week">Выберите необходимую неделю</string>
+    <string name="button_numerator">Расписание по числителю</string>
+    <string name="button_denominator">Расписание по знаменателю</string>
+    <string name="menu_language">Выберите язык меню</string>
+    <string name="menu_russian">Русский</string>
+    <string name="menu_english">English</string>
+
 </resources>
