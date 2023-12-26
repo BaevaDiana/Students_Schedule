@@ -1,18 +1,13 @@
 package com.example.studentsschedule;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 import android.view.View;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 
 
 import java.util.List;
@@ -71,9 +66,51 @@ public class NotesActivity extends AppCompatActivity {
                     subjectEditText.setText("");
                     noteEditText.setText("");
 
+                    // Отображение сообщения об успешном добавлении заметки
+                    Toast.makeText(NotesActivity.this, "Заметка успешно добавлена", Toast.LENGTH_SHORT).show();
+
                     // Переход на новую страницу
 //                    Intent intent = new Intent(NotesActivity.this, NotesListActivity.class);
 //                    startActivity(intent);
+                }
+            }
+        });
+
+        // Получение ссылки на кнопку "Удалить заметку"
+        Button buttonDeleteNote = findViewById(R.id.delete_note_button);
+
+        // Установка слушателя нажатий на кнопку "Удалить заметку"
+        buttonDeleteNote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText noteNumberEditText = findViewById(R.id.note_number_edit_text);
+
+                String noteNumber = noteNumberEditText.getText().toString();
+
+                if (noteNumber.isEmpty()) {
+                    Toast.makeText(NotesActivity.this, "Введите номер заметки", Toast.LENGTH_SHORT).show();
+                } else {
+                    int number = Integer.parseInt(noteNumber);
+
+                    // Удаление заметки из базы данных
+                    mDatabaseHelper.deleteTask(number);
+
+                    // Удаление заметки из списка
+                    for (int i = 0; i < mAdapter.mTaskList.size(); i++) {
+                        Task task = mAdapter.mTaskList.get(i);
+
+                        if (task.getId() == number) {
+                            mAdapter.mTaskList.remove(i);
+                            break;
+                        }
+                    }
+
+                    // Обновление списка заметок
+                    mAdapter.notifyDataSetChanged();
+                    noteNumberEditText.setText("");
+
+                    // Отображение сообщения об успешном удалении заметки
+                    Toast.makeText(NotesActivity.this, "Заметка успешно удалена", Toast.LENGTH_SHORT).show();
                 }
             }
         });
